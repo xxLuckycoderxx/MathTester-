@@ -8,9 +8,10 @@ public class Main {
 	// write your code here
 
     int firstNumber,secondNumber,total;
-
-int height;
-
+Scanner keyboard;
+String age;
+int height ;
+double inches;
 
 
     firstNumber=5;
@@ -19,9 +20,20 @@ int height;
     System.out.println(total);
     total=firstNumber*25;
     System.out.println(total);
+    keyboard=new Scanner(System.in);
+    inches=0.024/1;
+
+ // BmI=kg/m*m
+        System.out.println("What is your height in inches");
+        height=keyboard.nextInt();
+        System.out.println(height*inches);
+        System.out.println("What is your weight in kilograms");
 
 
-;
+
+
+
+
 
 
    /* System.out.println("first number+second number is "+ (firstNumber+secondNumber ));
@@ -33,7 +45,6 @@ int height;
         total=total+10;
         System.out.println(total);
         System.out.println("What is your height ?(inches only)");
-
 */
 
 
